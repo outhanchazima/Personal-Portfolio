@@ -1,8 +1,8 @@
 // flex conatiner side by side
-@mixin flex-container(){
+@mixin flex-container($direction: row, $justify: space-between) {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: $direction;
+    justify-content: $justify;
 }
 
 // Transition
