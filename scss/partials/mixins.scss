@@ -1,0 +1,12 @@
+// flex conatiner side by side
+@mixin flex-container(){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+// Transition
+@mixin transition($property){
+    transition: $property .3s ease-in-out;
+}
+
