@@ -85,6 +85,7 @@ header .navbar .nav-links .nav-item .nav-link {
 }
 header .navbar .nav-links .nav-item .nav-link:hover {
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
