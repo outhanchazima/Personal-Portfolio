@@ -88,4 +88,14 @@ header .navbar .nav-links .nav-item .nav-link:hover {
   cursor: pointer;
 }
 
+.container {
+  margin: 3em 0;
+  align-items: center;
+}
+.container .side-by-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=main.css.map */
