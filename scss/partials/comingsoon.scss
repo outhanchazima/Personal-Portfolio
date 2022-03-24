@@ -1,6 +1,6 @@
 .container {
     margin: 3em 0;
-    align-items: center;
+    // align-items: center;
 
     .side-by-side {
         @include flex-container($direction: column, $justify: space-between)

@@ -56,20 +56,22 @@ a {
   }
 }
 header {
-  height: 100vh;
   width: 100vw;
   background-color: #000000;
 }
 header .navbar {
   height: 147px;
-  width: 100vw;
   background-color: #000000;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3em 15vw;
+  padding: 0 15vw;
   color: #898989;
   align-items: center;
+}
+header .navbar .nav-brand:hover {
+  cursor: pointer;
+  color: #FFFFFF;
 }
 header .navbar .nav-links {
   display: flex;
@@ -90,7 +92,6 @@ header .navbar .nav-links .nav-item .nav-link:hover {
 
 .container {
   margin: 3em 0;
-  align-items: center;
 }
 .container .side-by-side {
   display: flex;
