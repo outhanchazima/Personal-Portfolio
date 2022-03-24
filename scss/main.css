@@ -152,5 +152,12 @@ header .navbar .nav-links .nav-item .nav-link:hover {
 .container .coming-soon .side-by-side .side-by-side-right {
   display: flex;
 }
+.container .coming-soon .side-by-side .side-by-side-right .side-by-side-right-content {
+  padding: 0 3em;
+  align-items: center;
+}
+.container .coming-soon .side-by-side .side-by-side-right .side-by-side-right-content img {
+  width: 45em;
+}
 
 /*# sourceMappingURL=main.css.map */
