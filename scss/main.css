@@ -65,7 +65,7 @@ header .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 15vw;
+  padding: 0 4em;
   color: #898989;
   align-items: center;
 }
@@ -91,12 +91,66 @@ header .navbar .nav-links .nav-item .nav-link:hover {
 }
 
 .container {
-  margin: 3em 0;
+  margin: 0 4em;
 }
-.container .side-by-side {
+.container .coming-soon .side-by-side {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+}
+.container .coming-soon .side-by-side .side-by-side-left {
+  display: flex;
+  display: flex;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content {
+  align-items: left;
+  padding-top: 10em;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content .main-title {
+  font-weight: 700;
+  font-size: 80px;
+  background: linear-gradient(90deg, #82EE82 0%, #29CDA0 29.77%, #7236EF 46.84%, #4B76F4 66.25%, #EB5572 86.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content .main-subtitle {
+  font-size: 20px;
+  line-height: 2em;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content .mail-input .email-input {
+  width: 30em;
+  height: 3em;
+  border: 2px solid #898989;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 2em 0;
+  padding: 0.5em;
+  font-size: 1em;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content .mail-input .send-email-btn {
+  padding: 1.2em;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  margin: -84px;
+  background: #FFFFFF;
+  color: #000000;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content .service-labels {
+  display: flex;
+  gap: 1em;
+  font-size: 20px;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content .service-labels .pink-color {
+  color: #EA5573;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content .service-labels .purple-color {
+  color: #5C64D7;
+}
+.container .coming-soon .side-by-side .side-by-side-left .side-by-side-left-content .service-labels .green-color {
+  color: #7EEC83;
+}
+.container .coming-soon .side-by-side .side-by-side-right {
+  display: flex;
 }
 
 /*# sourceMappingURL=main.css.map */

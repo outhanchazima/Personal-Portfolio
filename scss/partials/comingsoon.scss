@@ -1,10 +1,75 @@
 .container {
-    margin: 3em 0;
-    // align-items: center;
+    margin: 0 4em;
+    .coming-soon {
+        .side-by-side {
+            display: flex;
+            justify-content: space-between;
+            // flex-direction: column;
 
-    .side-by-side {
-        @include flex-container($direction: column, $justify: space-between)
+            .side-by-side-left {
+                display: flex;
+
+                .side-by-side-left-content {
+                    align-items: left;
+                    padding-top: 10em;
+
+                    .main-title {
+                        font-weight: 700;
+                        font-size: 80px;
+                        background: $theme-gradient;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+
+                    .main-subtitle {
+                        // font-weight: 400;
+                        font-size: 20px;
+                        line-height: 2em;
+                    }
+
+                    .mail-input {
+                        .email-input {
+                            width: 30em;
+                            height: 3em;
+                            border: 2px solid $gray;
+                            border-radius: 5px; 
+                            background-color:$black;
+                            color: $white;
+                            margin: 2em 0;
+                            padding: 0.5em;
+                            font-size: 1em;
+                        }
+                        .send-email-btn {
+                            padding: 1.2em;
+                            border: 2px solid $white;
+                            border-radius:5px;
+                            margin: -84px;
+                            background:$white;
+                            color:$black;
+                        }
+                    }
+                    .service-labels {
+                        display: flex;
+                        gap: 1em;
+                        font-size:20px;
+
+                        .pink-color {
+                            color: $pink;
+                        }
+                        .purple-color {
+                            color: $purple;
+                        }
+                        .green-color {
+                            color: $green;
+                        }
+                    }
+                }
+                display: flex;
+            }
+
+            .side-by-side-right {
+                display: flex;
+            }
+        }
     }
-
-
 }
